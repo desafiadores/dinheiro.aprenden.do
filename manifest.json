@@ -2,6 +2,7 @@
   "name": "aprenden.do",
   "short_name": "aprenden.do",
   "theme_color": "#007bff",
+  "lang": "pt-BR",
   "background_color": "#007bff",
   "display": "fullscreen",
   "orientation": "portrait",
