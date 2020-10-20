@@ -291,9 +291,10 @@ h1, h2, h3, h4, h5,
 
 /* Navbar */
 .logo{
-  max-width: 50px;
+  max-width: 30px;
 }
 .site-navbar {
+  border-bottom: 1px solid #eaeaea;
   margin-bottom: 0px;
   z-index: 1999;
   position: absolute;
