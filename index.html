@@ -120,6 +120,23 @@
 
   
   <script src="modules/js/main.js"></script>
+
+  <script type="text/javascript">
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('modules/sw.js').then(function(registration) {
+                alert('registrado');
+                // Registration was successful
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            }).catch(function(err) {
+                alert('deu problema' + err);
+                // registration failed :(
+                console.log('ServiceWorker registration failed: ', err);
+            });
+        });
+    }
+  </script>
+
   
   </body>
 </html>
