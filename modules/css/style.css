@@ -293,6 +293,9 @@ h1, h2, h3, h4, h5,
 .logo{
   max-width: 30px;
 }
+.pt-10{
+  padding-top: 100px !important;
+}
 .site-navbar {
   border-bottom: 1px solid #eaeaea;
   margin-bottom: 0px;
@@ -301,9 +304,11 @@ h1, h2, h3, h4, h5,
   width: 100%;
   background: #fff; }
   .site-navbar .site-logo {
+    font-size: 1.7em !important;
     position: relative;
     left: 0;
-    top: -5px; }
+    top: -5px;
+ }
   .site-navbar .site-navigation.border-bottom {
     border-bottom: 1px solid #f3f3f4 !important; }
   .site-navbar .site-navigation .site-menu {
@@ -1361,6 +1366,33 @@ h1, h2, h3, h4, h5,
       color: rgba(255, 255, 255, 0.7); }
       .unit-4:hover p a {
         color: #fff; }
+
+  .unit-3 {
+    padding: 30px;
+    background: #4285f4;
+    color: white;
+    border-radius: 5px;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    position: relative;
+    top: 0;
+    padding-top: 30px;
+    height: 200px; 
+  }
+  .unit-3 h3 {
+    font-size: 1.6em;
+    color: rgb(255, 255, 255);
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+  .unit-3 p {
+    font-weight: 300;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+  .unit-3 *:last-child {
+    margin-bottom: 0; }
 
 .h-entry img {
   margin-bottom: 30px; }
